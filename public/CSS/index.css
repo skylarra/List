@@ -1,0 +1,351 @@
+/*
+Color Palette: 
+    Gunmetal: #222831;
+    Gunmetal-2: #31363f;
+    Viridian: #53917e;
+    Sunset: #ffd289;
+    Eggshell: #f4f1de;
+
+Fonts: 
+    Headers: Archive Black
+    Paragraphs: Roboto
+*/
+
+body {
+    margin: 5%;
+    height: 100%;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffd289
+}
+
+hgroup {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#allIcon {
+    font-size: 30px;
+}
+
+#switch {
+    background-color: transparent;
+    border: none;
+}
+
+#switchIcon {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+.parentMainImg {
+    display: flex;
+    justify-content: center;
+}
+
+.mainImg {
+    width: 80%;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2%;
+}
+
+.card h2 {
+    font-size: medium;
+    text-align: center;
+}
+
+.card p {
+    font-size: small;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin: 5% -5% 0 -5%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.circle {
+    background-color: inherit;
+    min-width: 100px;
+    border-radius: 50%;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ficon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    height: 100px;
+}
+
+.getStarted {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#started {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button, input[type=submit] {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+}
+
+.searchContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=file] {
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5%;
+    width: fit-content;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit] {
+    border: none;
+}
+
+.homeContent button {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: -70px;
+}
+
+.homeContent header h1 {
+    text-align: center;
+}
+
+#userLists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#listOne {
+    padding: 5%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: fit-content;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#listImg {
+    width: 125px;
+    border-radius: 5px;
+}
+
+.listInfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.listNum {
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.listTotal .listNum {
+    background-color: #31363f;
+}
+
+.listTotal .listNum p {
+    color: #fff;
+}
+
+.remaining .listNum {
+    background-color: #53917e;
+}
+
+.listProgress .listNum {
+    background-color: #ffd289;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.itemInfo {
+    display: flex;
+    align-items: center;
+}
+
+.itemInfo img {
+    width: 150px;
+    margin-right: 30px;
+}
+
+.itemAmt {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.profileImg img {
+    width: 150px;
+}
+
+.profileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.profileContent h2 {
+    text-align: center;
+}
+
+.profileContent button {
+    margin: auto;
+}
+
+table {
+    border-radius: 5px;
+}
+
+th {
+    width: 200px;
+    text-align: left;
+    padding: 20px;
+}
+
+td {
+    width: 300px;
+    text-align: center;
+}
+
+.accountInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accountInfo button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover, input[type=submit]:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    .mainImg {
+        max-width: 400px;
+    }
+  }
+

@@ -1,0 +1,31 @@
+body {
+    background-color: #222831;
+    color: #fff;
+}
+
+#switchIcon {
+    color: #ffd289;
+}
+
+.hAI {
+    color: #fff;
+}
+
+.card {
+    background-color: #31363f;
+}
+
+footer, form, #listOne, table {
+    background-color: #31363f;
+    color: white;
+}
+
+button, input[type=submit] {
+    background-color: #ffd289;
+    color: #222831;
+    border: none;
+}
+
+.listProgress .listNum p {
+    color: #222831;
+}

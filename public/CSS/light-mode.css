@@ -1,0 +1,26 @@
+#switchIcon {
+    color: #222831;
+}
+
+.hAI {
+    color: #222831;
+}
+
+body {
+    color: #222831;
+}
+
+.card, form, #listOne, .item, table {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+footer, button, input[type=submit] {
+    background-color: #222831;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+}
+
+form, input, table {
+    border: rgba(149, 157, 165, 0.404) 1px solid;
+}

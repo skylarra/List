@@ -1,0 +1,39 @@
+<%- include("./partials/header.ejs") %>
+
+<div class="searchContent">
+    
+    <form action="/submit" method="post">
+        <h1>Enter Product's Information</h1>
+        <label for="itemUrl">Product's URL
+            <input type="url" name="itemUrl" id="itemUrl">
+        </label>
+
+        <label for="itemImg">Product's Image
+            <input type="file" name="Image" id="itemImg" accept="image/png, image/jpeg">
+        </label>
+
+        <label for="itemName">Product's Name
+            <input type="text" name="itemName" id="itemName" required>
+        </label>
+
+        <label for="itemDesc">Product's Description
+            <input type="text" name="itemDesc" id="itemDesc">
+        </label>
+
+        <label for="itemAmt">Quantity Needed
+            <input type="number" name="itemAmt" id="itemAmt" min="1" required>
+        </label>
+
+        <label for="itemList">Which list would you like it on?
+            <input type="search">
+        </label>
+        
+        <input type="submit">
+
+
+    </form>
+
+</div>
+
+
+<%- include("./partials/footer.ejs") %>
